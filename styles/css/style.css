@@ -1,0 +1,313 @@
+body {
+  background-color: #fffdeb;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto mono', cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#back-to-top-btn {
+  position: fixed;
+  z-index: 1;
+  bottom: 20px;
+  right: 20px;
+  display: flex; 
+  flex-direction: column;
+  opacity: 80%;
+  align-items: center;
+  transition: opacity 0.5s ease-out;
+  opacity: 0; /* Scrolling sets this to 0.8 */
+}
+
+#arrow-up-text {
+  cursor: pointer;
+  font-family: 'Asap', sans-serif;
+  font-size: 12pt;
+  line-height: 150%;
+}
+
+#arrow-up {
+  width: 30px;
+  margin-bottom: 7px;
+}
+
+#top-title-images-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  width: 50%;
+  margin: 50px 0px 50px 0px;
+}
+
+#bottom-title-images-container {
+  display: flex;
+  justify-content: space-between;
+  min-width: 80%;
+  position: absolute;
+  bottom: 40px;
+}
+
+.subtitle-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 100px 0px 0px 0px;
+}
+
+.guitar-and-amp-img {
+  height: 30vw;
+}
+
+.flash-img {
+  height: 100px;
+  padding-bottom: 30px;
+}
+
+.flash-img-horizontal {
+  width: 50px;
+  padding-bottom: 10px;
+}
+
+#lamp-img {
+  height: 280px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.super-bold {
+  font-weight:bold;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+  letter-spacing:1px;
+}
+
+p {
+  width: 80%;
+  text-align: center;
+  font-family: 'Asap', sans-serif;
+  font-size: 15pt;
+  line-height: 150%;
+}
+
+.nav-separator {
+  margin: 0px 15px 0px 15px;
+}
+
+.page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  width: 80%;
+}
+
+#terrains-apprentissage-bloc {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.terrains-apprentissage-img {
+  max-width: 250px;
+  max-height: 250px;
+  margin-top: 20px;
+}
+
+.terrain-apprentissage {
+  width: 25%;
+  text-align: center;
+}
+
+.video {
+  width: 80%;
+  text-align: center;
+}
+
+.video-title {
+  display: flex;
+  align-items: end;
+}
+
+.video-title-img {
+  max-width: 50px;
+  max-height: 50px;
+  text-align: center;
+}
+
+.video-iframe {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+#socials-block {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 200px;
+}
+
+#socials-links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  align-self: center;
+}
+
+.socials-logo-img {
+  max-width: 60px;
+  max-height: 60px;
+}
+
+#cle-fa-img {
+  max-height: 200px;
+  align-self: self-end;
+}
+
+#cle-sol-img {
+  max-height: 200px;
+}
+
+.text-anchor {
+  text-decoration: underline;
+}
+
+#street-img {
+  max-width: 700px;
+}
+
+#telephone-img {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  max-width: 200px;
+}
+
+h1 {
+  text-align: center; 
+  line-height: 3rem;
+  width: 35rem;
+  position: absolute;
+  top: 40%;
+  font-size: 40pt;
+}
+
+h2 {
+  text-align: center;
+  margin: 0px 15px 0px 15px;
+  font-size: 2rem;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Asap', sans-serif;
+  font-size: 1.5rem;
+}
+
+h4 {
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 6px;
+}
+
+@media (min-width: 873px) {
+  .mobile {
+    display: none;
+  }
+}
+@media (max-width: 872px) {
+  .screen {
+    display: none;
+  }
+
+  h1 {
+    position: static;
+    font-size: 20pt;
+    width: 20rem;
+  }
+
+  .guitar-and-amp-img {
+    height: 350px;
+  }
+
+  .subtitle-separator {
+    display: flex;
+    justify-content: space-around;
+    width: 100%
+  }
+
+  .subtitle-group {
+    flex-direction: column;
+  }
+
+  #terrains-apprentissage-bloc {
+    flex-direction: column;
+  }
+
+  .terrain-apprentissage {
+    width: 100%;
+  }
+
+  #bottom-title-images-container {
+    justify-content: center;
+  }
+
+  .flash-img-horizontal {
+    width: 50px;
+  }
+
+  #street-img {
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.x-axis-moveable-1, .y-axis-moveable-1 {
+  width: 100px;
+  height: 100px; }
+
+.x-axis-moveable-1 {
+  animation: moving-x-axis 22s linear infinite alternate; }
+
+.y-axis-moveable-1 {
+  animation: moving-y-axis 3s linear infinite alternate;
+  background-color: red; }
+
+@keyframes moving-x-axis {
+  100% {
+    transform: translateX(calc(100vw - 100px)); } }
+
+@keyframes moving-y-axis {
+  100% {
+    transform: translateY(calc(100vh - 100px)); } }

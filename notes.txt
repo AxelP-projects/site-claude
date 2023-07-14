@@ -1,0 +1,5 @@
+-police
+-espacement titre principal
+-agrandir ampoule
+-Alignement des tiutres par rapport logo facebook
+-faire rentrer le bloc contact sur 1 page
